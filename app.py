@@ -230,7 +230,7 @@ with st.sidebar:
     
     tiempo_periodo = st.selectbox(
         "📅 Período de Análisis",
-        ["Último Mes", "Últimos 3 Meses", "Último Año", "Todo el Período"]
+        ["Todo el Período", "Último Mes", "Últimos 3 Meses", "Último Año"]
     )
     
     mostrar_filtros = st.checkbox("🔍 Filtros Avanzados", value=False)
